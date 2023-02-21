@@ -9,7 +9,7 @@ var timerEl = document.getElementById('time');
 var choicesEl = document.getElementById('choices');
 var submitBtn = document.getElementById('submit');
 var startBtn = document.getElementById('start');
-var initialsEl = document.getElementById('initials');
+var fullnameEl = document.getElementById('fullname');
 var feedbackEl = document.getElementById('feedback');
 
 // sound effects
@@ -70,7 +70,7 @@ function questionClick(event) {
   // check if user guessed wrong
   if (buttonEl.value !== questions[currentQuestionIndex].answer) {
     // penalize time
-    time -= 15;
+    time -= 10;
 
     if (time < 0) {
       time = 0;
@@ -136,26 +136,26 @@ function clockTick() {
 
 function saveHighscore() {
   // get value of input box
-  var initials = initialsEl.value.trim();
+  var fullname = fullnameEl.value.trim();
 
   // make sure value wasn't empty
-  if (initials !== '') {
+  if (fullname !== '') {
     // get saved scores from localstorage, or if not any, set to empty array
-    var highscores =
-      JSON.parse(window.localStorage.getItem('highscores')) || [];
+    var codeassess =
+      JSON.parse(window.localStorage.getItem('codeassess')) || [];
 
     // format new score object for current user
     var newScore = {
       score: time,
-      initials: initials,
+      fullname: fullname,
     };
 
     // save to localstorage
-    highscores.push(newScore);
-    window.localStorage.setItem('highscores', JSON.stringify(highscores));
+    codeassess.push(newScore);
+    window.localStorage.setItem('codeassess', JSON.stringify(codeassess));
 
     // redirect to next page
-    window.location.href = 'highscores.html';
+    window.location.href = 'codeassess.html';
   }
 }
 
@@ -166,7 +166,7 @@ function checkForEnter(event) {
   }
 }
 
-// user clicks button to submit initials
+// user clicks button to submit fullname
 submitBtn.onclick = saveHighscore;
 
 // user clicks button to start quiz
@@ -175,4 +175,4 @@ startBtn.onclick = startQuiz;
 // user clicks on element containing choices
 choicesEl.onclick = questionClick;
 
-initialsEl.onkeyup = checkForEnter;
+fullnameEl.onkeyup = checkForEnter;

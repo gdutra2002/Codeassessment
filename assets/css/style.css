@@ -1,16 +1,46 @@
+:root {
+      --primary: rgb(48, 53, 150);
+      --secondary: rgb(108, 230, 218);
+      --tertiary: rgb(85, 34, 85);
+      --dark: rgb(13, 11, 18);
+      --light: rgb(246, 247, 238);
+    }
+
+
 body {
-      font-family: Arial;
+      margin: 0;
+      height: 100%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Arial';
       font-size: 120%;
+      color: var(--dark);
+      /* background: url("") no-repeat center center fixed; */
+      background-color: var(--dark);
+      background: linear-gradient(to bottom, var(--tertiary), rgb(0, 0, 255));
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      margin: 0;
+    }
+    
+p {
+      margin: 0;
+    }
+
     a {
-      color: #563d7c;
+      color: var(--primary);
       text-decoration: none;
       transition: color 0.1s;
     }
     
     a:hover {
-      color: #8570a5;
+      color: var(--secondary);
     }
     
     button {
@@ -40,7 +70,7 @@ body {
     
     ol {
       padding-left: 0px;
-      max-height: 400px;
+      max-height: 250px;
       overflow: auto;
     }
     
@@ -50,11 +80,11 @@ body {
     }
     
     li:nth-child(odd) {
-      background-color: #f3edfc;
+      background-color: #77688d;
     }
     
     .wrapper {
-      margin: 100px auto 0 auto;
+      margin: 30% auto 30% auto;
       max-width: 600px;
     }
     
@@ -68,8 +98,8 @@ body {
     
     .scores {
       position: absolute;
-      top: 10px;
-      left: 10px;
+      top: 25px;
+      left: 25px;
     }
     
     .feedback {
@@ -83,7 +113,7 @@ body {
     
     .timer {
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: 25px;
+      right: 25px;
     }
     
