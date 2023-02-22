@@ -17,7 +17,7 @@ This webpage simulates a basic javascript knowledge assessment.  The format will
 https://github.com/gdutra2002
 
 To create this game app, I built upon previously distribute code from the UCD bootcamp module.  Additionally, the MDN and various functionality for CSS, JS, HTML were googled.
-Majority credit to the UCD tutors, modules, the internet, specifically the main module04 code, as modifying a native quiz app from scratch is my current level.
+Majority credit to the UCD tutors, modules, Tim Berners-Lee founder of the internet, specifically the main module04 code, as modifying a native quiz app from scratch is my current level.
 
 https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/UCD-VIRT-FSF-PT-12-2022-U-LOLC/-/tree/main/04-Web-APIs
 1c11657ccbf614c0331bbd2e3d1cd141c9e0f6aa
@@ -40,6 +40,6 @@ https://linkedin.com/in/gary-e-dutra-15357940
 
 ## Tests
 
-Go the extra mile and write test questioins along to help others asses their development skills. Then submit questions to the author with answers, or to improve the code functionality to provide better examples on how to run them here.
+Go the extra mile and write test questions to help others asses their development skills. Then submit questions to the author with answers, or to improve the code functionality to provide better examples on how to run them.
 
-This!!!
+Thanks!!
