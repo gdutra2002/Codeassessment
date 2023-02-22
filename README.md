@@ -6,27 +6,23 @@ This webpage simulates a basic javascript knowledge assessment.  The format will
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+ https://gdutra2002.github.io/Codeassessment/
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![codeassess](assets/images/screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
 https://github.com/gdutra2002
 
-UCD modules and the internet
+To create this game app, I built upon previously distribute code from the UCD bootcamp module.  Additionally, the MDN and various functionality for CSS, JS, HTML were googled.
+Majority credit to the UCD tutors, modules, the internet, specifically the main module04 code, as modifying a native quiz app from scratch is my current level.
+
+https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/UCD-VIRT-FSF-PT-12-2022-U-LOLC/-/tree/main/04-Web-APIs
+1c11657ccbf614c0331bbd2e3d1cd141c9e0f6aa
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
 
 ## License
 
@@ -44,6 +40,6 @@ https://linkedin.com/in/gary-e-dutra-15357940
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Go the extra mile and write test questioins along to help others asses their development skills. Then submit questions to the author with answers, or to improve the code functionality to provide better examples on how to run them here.
 
 This!!!
